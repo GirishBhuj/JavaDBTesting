@@ -21,7 +21,6 @@ public class DbManager
 		Hashtable<String, String> mTestDataHashTable = DbManager.GetExcelData();
 		//System.out.println(mTestDataHashTable.get("fullName"));
 		System.out.println(mTestDataHashTable.get("birthdate"));
-		System.out.println(mTestDataHashTable.get("birthdate"));
 	}
 
 	public static void setMysqlDbConnection() throws SQLException, ClassNotFoundException
