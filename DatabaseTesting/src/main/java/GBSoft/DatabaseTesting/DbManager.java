@@ -19,7 +19,7 @@ public class DbManager
 		//System.out.println(DbManager.getQuery("select Emp_Fname,Salary from Employee where Salary > 50000"));
 
 		Hashtable<String, String> mTestDataHashTable = DbManager.GetExcelData();
-		System.out.println(mTestDataHashTable.get("fullName"));
+		System.out.println("Full Name: " + mTestDataHashTable.get("fullName"));
 		System.out.println(mTestDataHashTable.get("birthdate"));
 	}
 
